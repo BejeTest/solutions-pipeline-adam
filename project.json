@@ -1,0 +1,71 @@
+{
+  "name": "Test-Pipeline-SolutionDeployment",
+  "projectId": "d5400e75-bd8d-4776-9616-a012067ad6be",
+  "description": "Clone the solution projects code - Analyze - Run Tests - Build - Publish packages - Update processes - Re-sync solution - Create solution package - Deploy solution - Approve - Download solution package - Upload solution package to next environment - Deploy solution to next environment.\n\r\n\rRead more in Automation Ops - Pipelines documentation.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.FormActivityLibrary": "[2.0.8]",
+    "UiPath.Persistence.Activities": "[1.5.11]",
+    "UiPath.Pipelines.Activities": "[2.1.0-preview]",
+    "UiPath.System.Activities": "[23.10.6]",
+    "UiPath.Testing.Activities": "[23.10.1]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.5.0",
+  "projectVersion": "1.0.9",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": true,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cd1d26b1-bebe-480a-9fbf-5972696f96f0",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "a65aeb6e-4777-4362-b435-dff8840653c2",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Portable"
+}
